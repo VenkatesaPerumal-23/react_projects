@@ -1,0 +1,80 @@
+.balance {
+  width: 300px;
+  height: 100px;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.income {
+  width: 300px;
+  height: 100px;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.expense {
+  width: 300px;
+  height: 100px;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance {
+    width: 200px;
+    height: 100px;
+    background-color: #ecfccb;
+    border: 1px solid #84cc16;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+  .income {
+    width: 200px;
+    height: 100px;
+    background-color: #cffafe;
+    border: 1px solid #06b6d4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+  .expense {
+    width: 200px;
+    height: 100px;
+    background-color: #ede9fe;
+    border: 1px solid #7c3aed;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+}

@@ -1,0 +1,50 @@
+.each-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  width: 250px;
+}
+.each-para {
+  color: #334155;
+  font-size: 12px;
+}
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .each-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    margin: 10px;
+    width: 350px;
+  }
+  .each-para {
+    color: #334155;
+    font-size: 15px;
+  }
+  .delete-button {
+    background-color: transparent;
+    border-width: 0px;
+    cursor: pointer;
+    outline: none;
+  }
+  .delete-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
