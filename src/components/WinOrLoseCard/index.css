@@ -1,0 +1,91 @@
+.score-card-container {
+  width: 80%;
+  height: 400px;
+  background-color: #ffffff33;
+  border-radius: 12px;
+  border: 1px solid #ffffff30;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.score-head {
+  color: #ffffff;
+  font-size: 25px;
+  margin-left: 30px;
+}
+.score-para {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.score-value {
+  color: #6a59ff;
+  font-size: 25px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.play-button {
+  width: 80px;
+  height: 40px;
+  color: #3d3d3d;
+  background-color: #ffce27;
+  border-radius: 8px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+.win-or-lose-image {
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-card-container {
+    width: 600px;
+    height: 500px;
+    background-color: #ffffff33;
+    border-radius: 12px;
+    border: 1px solid #ffffff30;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .score-head {
+    color: #ffffff;
+    font-size: 35px;
+  }
+  .score-para {
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: bold;
+  }
+  .score-value {
+    color: #6a59ff;
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: bold;
+  }
+  .play-button {
+    width: 100px;
+    height: 40px;
+    color: #3d3d3d;
+    background-color: #ffce27;
+    border-radius: 8px;
+    border-width: 0px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+  }
+  .win-or-lose-image {
+    width: 280px;
+    height: 300px;
+  }
+}
