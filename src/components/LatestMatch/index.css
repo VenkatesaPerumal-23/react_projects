@@ -1,0 +1,145 @@
+.latest-match {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  max-width: 300px;
+  flex-wrap: wrap;
+}
+.competing-team-logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  margin-right: 8px;
+}
+.competing-team-para {
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 14px;
+  max-width: 100px;
+}
+.date {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  max-width: 100px;
+}
+.venue {
+  margin-top: 10px;
+  margin-left: 10px;
+  max-width: 150px;
+  font-size: 14px;
+}
+.result {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  max-width: 150px;
+  text-align: center;
+}
+.first-innings-para {
+  margin-left: 20px;
+  margin-top: 60px;
+  text-align: left;
+}
+.first-innings {
+  margin-left: 20px;
+  text-align: left;
+}
+.second-innings-para {
+  margin-left: 20px;
+  text-align: left;
+}
+.second-innings {
+  margin-left: 20px;
+  text-align: left;
+}
+.man-of-the-match-para {
+  margin-left: 20px;
+  text-align: left;
+}
+.man-of-the-match {
+  margin-left: 20px;
+  text-align: left;
+}
+.umpires {
+  margin-left: 20px;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    max-width: 1000px;
+    flex-wrap: nowrap;
+  }
+  .competing-team-logo {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    margin-left: 10px;
+  }
+  .competing-team-para {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 30px;
+    max-width: 200px;
+  }
+  .date {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    max-width: 200px;
+  }
+  .venue {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 200px;
+  }
+  .result {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    max-width: 100px;
+    text-align: center;
+  }
+  .first-innings-para {
+    margin-right: 10px;
+    margin-top: 60px;
+    text-align: right;
+  }
+  .first-innings {
+    margin-right: 10px;
+    text-align: right;
+  }
+  .second-innings-para {
+    margin-right: 10px;
+    text-align: right;
+  }
+  .second-innings {
+    margin-right: 10px;
+    text-align: right;
+  }
+  .man-of-the-match-para {
+    margin-right: 10px;
+    text-align: right;
+  }
+  .man-of-the-match {
+    margin-right: 10px;
+    text-align: right;
+  }
+  .umpires {
+    margin-right: 10px;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .latest-match {
+    margin-left: 150px;
+  }
+}
