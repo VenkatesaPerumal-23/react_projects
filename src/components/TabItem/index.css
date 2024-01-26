@@ -1,0 +1,47 @@
+.list-items {
+  list-style-type: none;
+  margin-right: 30px;
+}
+.tab-button {
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+}
+.active-tab-button {
+  background-color: transparent;
+  color: #fec653;
+  border-bottom: 4px solid #fec653;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-items {
+    list-style-type: none;
+    margin-right: 30px;
+  }
+  .tab-button {
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+    border-width: 0px;
+    cursor: pointer;
+    outline: none;
+    font-size: 25px;
+  }
+  .active-tab-button {
+    background-color: transparent;
+    color: #fec653;
+    border-bottom: 4px solid #fec653;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 25px;
+  }
+}
