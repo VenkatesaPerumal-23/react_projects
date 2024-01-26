@@ -1,0 +1,92 @@
+.each-repo-container {
+  width: 250px;
+  border-radius: 10px;
+  background-color: #f8f8ff;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+.repo-image {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 5px;
+  align-self: center;
+}
+.repo-head {
+  font-size: 24px;
+  color: #e73959;
+  text-align: center;
+  padding: 10px;
+}
+.repo-stars-para {
+  color: #1e293b;
+  margin-left: 10px;
+}
+.repo-forks-para {
+  color: #1e293b;
+  margin-left: 10px;
+}
+.repo-issues-para {
+  color: #1e293b;
+  margin-left: 10px;
+}
+.repo-row {
+  display: flex;
+  align-self: center;
+}
+.repo-icons {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .each-repo-container {
+    width: 250px;
+    border-radius: 10px;
+    background-color: #f8f8ff;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .repo-image {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 5px;
+    align-self: center;
+  }
+  .repo-head {
+    font-size: 24px;
+    color: #e73959;
+    text-align: center;
+    padding: 10px;
+  }
+  .repo-stars-para {
+    color: #1e293b;
+    margin-left: 10px;
+  }
+  .repo-forks-para {
+    color: #1e293b;
+    margin-left: 10px;
+  }
+  .repo-issues-para {
+    color: #1e293b;
+    margin-left: 10px;
+  }
+  .repo-row {
+    display: flex;
+    align-self: center;
+  }
+  .repo-icons {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+  }
+}

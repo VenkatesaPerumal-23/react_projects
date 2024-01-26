@@ -1,0 +1,66 @@
+.github-repos-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  color: #0f172a;
+  font-family: 'Lobster';
+  text-align: center;
+}
+.language-filter-list {
+  display: flex;
+  max-width: 500px;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+.repos-list {
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  flex-wrap: wrap;
+}
+.failure-image {
+  width: 500px;
+  height: 300px;
+}
+.failure-head {
+  color: #0f172a;
+  font-family: 'Lobster';
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .github-repos-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .head {
+    color: #0f172a;
+    font-family: 'Lobster';
+    text-align: center;
+  }
+  .language-filter-list {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+  }
+  .repos-list {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    flex-wrap: wrap;
+  }
+  .failure-image {
+    width: 500px;
+    height: 300px;
+  }
+  .failure-head {
+    color: #0f172a;
+    font-family: 'Lobster';
+    text-align: center;
+  }
+}
