@@ -1,0 +1,41 @@
+.loader-container {
+  display: flex;
+  align-items: flex-start;
+  height: 80vh;
+  margin: 20px;
+}
+.profile {
+  width: 40px;
+  height: 40px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 230px;
+  height: 230px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.retry-profile-button {
+  background-color: #6366f1;
+  width: 120px;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.failure-container {
+  margin: 60px;
+}
+.hr-line {
+  width: 40%;
+  margin-right: auto;
+}
