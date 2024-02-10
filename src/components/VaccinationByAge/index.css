@@ -1,0 +1,29 @@
+.age-container {
+  width: 90%;
+  border-radius: 5px;
+  background-color: #1c1c2b;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.failure-image {
+  width: 400px;
+  height: 300px;
+}
+.vaccine-age-para {
+  color: #cbd5e1;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.responsive-age-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}

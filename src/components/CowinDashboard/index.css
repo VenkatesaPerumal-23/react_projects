@@ -1,0 +1,28 @@
+.cowin-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #161625;
+}
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.logo-container {
+  display: flex;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.logo-head {
+  color: #2cc6c6;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cowin-head {
+  color: #cbd5e1;
+}
